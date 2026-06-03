@@ -272,6 +272,7 @@ export const ru: Dict = {
   'settings.amrSigningIn': 'Signing in…',
   'settings.amrCancelSignIn': 'Cancel sign-in',
   'settings.amrAccountStatus': 'AMR account status',
+  'settings.amrConsole': 'AMR Console',
   'settings.amrLoginErrorCompact': 'AMR sign-in failed.',
   'settings.apiSection': 'Anthropic API',
   'settings.quickFillProvider': 'Быстро заполнить провайдера',
@@ -325,6 +326,8 @@ export const ru: Dict = {
     'Получается из CLI, если он поддерживает команду `models`. «По умолчанию» оставляет выбор конфигурации CLI, а «Пользовательская…» позволяет ввести любой ID модели, который CLI принимает.',
   'settings.modelPickerLiveHint':
     'Модели обновлены из установленного CLI. Вариант по умолчанию по-прежнему использует конфигурацию CLI.',
+  'settings.modelPickerLiveCatalogOnlyHint':
+    'Модели обновлены из установленного CLI.',
   'settings.modelPickerFallbackHint':
     'Показаны встроенные значения по умолчанию. Нажмите «Пересканировать», чтобы получить актуальные модели из CLI.',
   'settings.cliEnvTitle': 'CLI config locations',
@@ -783,6 +786,8 @@ export const ru: Dict = {
   'avatar.useApi': 'Использовать API · BYOK',
   'avatar.codeAgent': 'Код-агент',
   'avatar.rescan': 'Пересканировать PATH',
+  'avatar.amrConsole': 'AMR account',
+  'avatar.amrConsoleMeta': 'Balance & recharge',
   'avatar.settings': 'Настройки',
   'avatar.backToProjects': 'Назад к проектам',
   'avatar.metaActive': 'активно',

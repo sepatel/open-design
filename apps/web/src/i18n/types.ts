@@ -277,6 +277,7 @@ export interface Dict {
   'settings.amrSigningIn': string;
   'settings.amrCancelSignIn': string;
   'settings.amrAccountStatus': string;
+  'settings.amrConsole': string;
   'settings.amrLoginErrorCompact': string;
   'settings.apiSection': string;
   'settings.quickFillProvider': string;
@@ -343,6 +344,7 @@ export interface Dict {
   'settings.reasoningPicker': string;
   'settings.modelPickerHint': string;
   'settings.modelPickerLiveHint': string;
+  'settings.modelPickerLiveCatalogOnlyHint': string;
   'settings.modelPickerFallbackHint': string;
   'settings.cliEnvTitle': string;
   'settings.cliEnvHint': string;
@@ -1680,6 +1682,8 @@ export interface Dict {
   'avatar.useApi': string;
   'avatar.codeAgent': string;
   'avatar.rescan': string;
+  'avatar.amrConsole': string;
+  'avatar.amrConsoleMeta': string;
   'avatar.settings': string;
   'avatar.backToProjects': string;
   'avatar.metaActive': string;
